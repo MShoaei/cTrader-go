@@ -1,0 +1,1 @@
+This repository fixes a small issue in https://github.com/ty2/ctrader-go where the connection would be closed if the user performs action on the cTrader application and a message is sent to this library which is due to fact that clientMsgId is not a UUID from the cTrader application side
